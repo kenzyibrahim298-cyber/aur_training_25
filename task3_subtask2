@@ -6,21 +6,22 @@ img = cv2.imread('shapes.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 out = img.copy()
 
-lower_red = np.array([100, 0, 0])
-upper_red = np.array([255, 100, 100])
-red_mask = cv2.inRange(img, lower_red, upper_red)
+red_mask = (
+    (img[:, :, 0]>=100) & (img[:, :, 0]<=255) & (img[:, :, 1]>=0) & (img[:, :, 1]<=100) & (img[:, :, 2]>=0) & (img[:, :, 2]<=100)
+)
 
-lower_black = np.array([0, 0, 0])
-upper_black = np.array([50, 50, 50])
-black_mask = cv2.inRange(img, lower_black, upper_black)
+black_mask = (
+    (img[:, :, 0]>=0)  & (img[:, :, 0]<=50) & (img[:, :, 1]>=0)  & (img[:, :, 1]<=50) & (img[:, :, 2]>=0)  & (img[:, :, 2]<=50)
+)
 
-lower_blue = np.array([0, 0, 100])
-upper_blue = np.array([100, 100, 255])
-blue_mask = cv2.inRange(img, lower_blue, upper_blue)
+blue_mask = (
+    (img[:, :, 0]>=0)   & (img[:, :, 0]<=100) & (img[:, :, 1]>=0)   & (img[:, :, 1]<=100) & (img[:, :, 2]>=100) & (img[:, :, 2]<=255)
+)
 
-out[blue_mask == 255] = [0, 0, 0]
-out[red_mask == 255] = [0, 0, 255]
-out[black_mask == 255] = [255, 0, 0]
+out[blue_mask]  = [0, 0, 0]
+out[red_mask]   = [0, 0, 255]
+out[black_mask] = [255, 0, 0]
+
 fig, axes = plt.subplots(1, 2)
 axes[0].imshow(img)
 axes[0].set_title('Original Image')
