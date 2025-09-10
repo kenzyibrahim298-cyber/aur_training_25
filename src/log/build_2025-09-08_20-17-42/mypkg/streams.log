@@ -1,0 +1,41 @@
+[0.892s] Invoking command in '/home/kenzy/ros2_ws/src/mypkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mypkg build --build-base /home/kenzy/ros2_ws/src/build/mypkg/build install --record /home/kenzy/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed install_data
+[1.044s] running egg_info
+[1.044s] creating ../build/mypkg/mypkg.egg-info
+[1.053s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.053s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.053s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.053s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[1.053s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[1.053s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.071s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.071s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.071s] running build
+[1.072s] running build_py
+[1.072s] creating /home/kenzy/ros2_ws/src/build/mypkg/build
+[1.072s] creating /home/kenzy/ros2_ws/src/build/mypkg/build/lib
+[1.072s] creating /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.072s] copying mypkg/publisher_node.py -> /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.072s] copying mypkg/__init__.py -> /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.072s] copying mypkg/subscriber_node.py -> /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.072s] running install
+[1.076s] running install_lib
+[1.085s] creating /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.085s] copying /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg/publisher_node.py -> /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.085s] copying /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.085s] copying /home/kenzy/ros2_ws/src/build/mypkg/build/lib/mypkg/subscriber_node.py -> /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.085s] byte-compiling /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg/publisher_node.py to publisher_node.cpython-312.pyc
+[1.086s] byte-compiling /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc
+[1.086s] byte-compiling /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg/subscriber_node.py to subscriber_node.cpython-312.pyc
+[1.086s] running install_data
+[1.086s] creating /home/kenzy/ros2_ws/src/install/mypkg/share/ament_index
+[1.086s] creating /home/kenzy/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[1.086s] creating /home/kenzy/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.086s] copying resource/mypkg -> /home/kenzy/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.086s] copying package.xml -> /home/kenzy/ros2_ws/src/install/mypkg/share/mypkg
+[1.086s] running install_egg_info
+[1.096s] Copying ../build/mypkg/mypkg.egg-info to /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[1.096s] running install_scripts
+[1.166s] Installing listener script to /home/kenzy/ros2_ws/src/install/mypkg/lib/mypkg
+[1.166s] Installing talker script to /home/kenzy/ros2_ws/src/install/mypkg/lib/mypkg
+[1.166s] writing list of installed files to '/home/kenzy/ros2_ws/src/build/mypkg/install.log'
+[1.207s] Invoked command in '/home/kenzy/ros2_ws/src/mypkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mypkg build --build-base /home/kenzy/ros2_ws/src/build/mypkg/build install --record /home/kenzy/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[2.040s] Invoking command in '/home/kenzy/ros2_ws/build/weather_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/weather_pkg/build --no-deps symlink_data
+[2.602s] running develop
+[2.913s] running egg_info
+[2.941s] writing weather_pkg.egg-info/PKG-INFO
+[2.941s] writing dependency_links to weather_pkg.egg-info/dependency_links.txt
+[2.942s] writing entry points to weather_pkg.egg-info/entry_points.txt
+[2.942s] writing requirements to weather_pkg.egg-info/requires.txt
+[2.942s] writing top-level names to weather_pkg.egg-info/top_level.txt
+[3.003s] reading manifest file 'weather_pkg.egg-info/SOURCES.txt'
+[3.004s] writing manifest file 'weather_pkg.egg-info/SOURCES.txt'
+[3.036s] running build_ext
+[3.036s] Creating /home/kenzy/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather-pkg.egg-link (link to .)
+[3.038s] Installing humidity_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+[3.038s] Installing monitor_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+[3.039s] Installing pressure_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+[3.039s] Installing temperature_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+[3.039s] 
+[3.040s] Installed /home/kenzy/ros2_ws/build/weather_pkg
+[3.040s] running symlink_data
+[3.140s] Invoked command in '/home/kenzy/ros2_ws/build/weather_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/weather_pkg/build --no-deps symlink_data

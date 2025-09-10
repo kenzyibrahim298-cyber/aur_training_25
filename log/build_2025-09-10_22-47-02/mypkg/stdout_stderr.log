@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mypkg.egg-info
+writing mypkg.egg-info/PKG-INFO
+writing dependency_links to mypkg.egg-info/dependency_links.txt
+writing entry points to mypkg.egg-info/entry_points.txt
+writing requirements to mypkg.egg-info/requires.txt
+writing top-level names to mypkg.egg-info/top_level.txt
+writing manifest file 'mypkg.egg-info/SOURCES.txt'
+reading manifest file 'mypkg.egg-info/SOURCES.txt'
+writing manifest file 'mypkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kenzy/ros2_ws/install/mypkg/lib/python3.12/site-packages/mypkg.egg-link (link to .)
+Installing collector_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+Installing distance_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+Installing speed_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+
+Installed /home/kenzy/ros2_ws/build/mypkg
+running symlink_data
+creating /home/kenzy/ros2_ws/install/mypkg/share/ament_index
+creating /home/kenzy/ros2_ws/install/mypkg/share/ament_index/resource_index
+creating /home/kenzy/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/mypkg/resource/mypkg -> /home/kenzy/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/mypkg/package.xml -> /home/kenzy/ros2_ws/install/mypkg/share/mypkg

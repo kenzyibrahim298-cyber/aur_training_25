@@ -1,0 +1,17 @@
+[2.021s] Invoking command in '/home/kenzy/ros2_ws/build/pkg_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/pkg_py/build --no-deps symlink_data
+[2.592s] running develop
+[2.900s] running egg_info
+[2.930s] writing pkg_py.egg-info/PKG-INFO
+[2.930s] writing dependency_links to pkg_py.egg-info/dependency_links.txt
+[2.931s] writing entry points to pkg_py.egg-info/entry_points.txt
+[2.931s] writing requirements to pkg_py.egg-info/requires.txt
+[2.931s] writing top-level names to pkg_py.egg-info/top_level.txt
+[2.990s] reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+[2.991s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.025s] running build_ext
+[3.025s] Creating /home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages/pkg-py.egg-link (link to .)
+[3.026s] Installing timer_node script to /home/kenzy/ros2_ws/install/pkg_py/lib/pkg_py
+[3.027s] 
+[3.027s] Installed /home/kenzy/ros2_ws/build/pkg_py
+[3.027s] running symlink_data
+[3.114s] Invoked command in '/home/kenzy/ros2_ws/build/pkg_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/pkg_py/build --no-deps symlink_data

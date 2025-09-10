@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle_pkg.egg-info
+writing turtle_pkg.egg-info/PKG-INFO
+writing dependency_links to turtle_pkg.egg-info/dependency_links.txt
+writing entry points to turtle_pkg.egg-info/entry_points.txt
+writing requirements to turtle_pkg.egg-info/requires.txt
+writing top-level names to turtle_pkg.egg-info/top_level.txt
+writing manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+reading manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kenzy/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages/turtle-pkg.egg-link (link to .)
+Installing turtle_node script to /home/kenzy/ros2_ws/install/turtle_pkg/lib/turtle_pkg
+
+Installed /home/kenzy/ros2_ws/build/turtle_pkg
+running symlink_data
+creating /home/kenzy/ros2_ws/install/turtle_pkg/share/ament_index
+creating /home/kenzy/ros2_ws/install/turtle_pkg/share/ament_index/resource_index
+creating /home/kenzy/ros2_ws/install/turtle_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/turtle_pkg/resource/turtle_pkg -> /home/kenzy/ros2_ws/install/turtle_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/turtle_pkg/package.xml -> /home/kenzy/ros2_ws/install/turtle_pkg/share/turtle_pkg

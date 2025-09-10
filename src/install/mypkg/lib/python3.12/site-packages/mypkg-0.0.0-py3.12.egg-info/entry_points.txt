@@ -1,0 +1,3 @@
+[console_scripts]
+listener = mypkg.subscriber_node:main
+talker = mypkg.publisher_node:main

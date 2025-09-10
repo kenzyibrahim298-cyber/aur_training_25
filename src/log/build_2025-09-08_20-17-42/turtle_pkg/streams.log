@@ -1,0 +1,32 @@
+[0.898s] Invoking command in '/home/kenzy/ros2_ws/src/turtle_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_pkg build --build-base /home/kenzy/ros2_ws/src/build/turtle_pkg/build install --record /home/kenzy/ros2_ws/src/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[1.048s] running egg_info
+[1.048s] creating ../build/turtle_pkg/turtle_pkg.egg-info
+[1.057s] writing ../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[1.057s] writing dependency_links to ../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[1.057s] writing requirements to ../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[1.057s] writing top-level names to ../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[1.057s] writing manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.075s] reading manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.075s] writing manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.076s] running build
+[1.076s] running build_py
+[1.076s] creating /home/kenzy/ros2_ws/src/build/turtle_pkg/build
+[1.076s] creating /home/kenzy/ros2_ws/src/build/turtle_pkg/build/lib
+[1.076s] creating /home/kenzy/ros2_ws/src/build/turtle_pkg/build/lib/turtle_pkg
+[1.076s] copying turtle_pkg/__init__.py -> /home/kenzy/ros2_ws/src/build/turtle_pkg/build/lib/turtle_pkg
+[1.077s] running install
+[1.080s] running install_lib
+[1.089s] creating /home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.089s] copying /home/kenzy/ros2_ws/src/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.089s] byte-compiling /home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/__init__.py to __init__.cpython-312.pyc
+[1.089s] running install_data
+[1.089s] creating /home/kenzy/ros2_ws/src/install/turtle_pkg/share/ament_index
+[1.089s] creating /home/kenzy/ros2_ws/src/install/turtle_pkg/share/ament_index/resource_index
+[1.090s] creating /home/kenzy/ros2_ws/src/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.090s] copying resource/turtle_pkg -> /home/kenzy/ros2_ws/src/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.090s] copying package.xml -> /home/kenzy/ros2_ws/src/install/turtle_pkg/share/turtle_pkg
+[1.090s] running install_egg_info
+[1.099s] Copying ../build/turtle_pkg/turtle_pkg.egg-info to /home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[1.099s] running install_scripts
+[1.171s] writing list of installed files to '/home/kenzy/ros2_ws/src/build/turtle_pkg/install.log'
+[1.209s] Invoked command in '/home/kenzy/ros2_ws/src/turtle_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_pkg build --build-base /home/kenzy/ros2_ws/src/build/turtle_pkg/build install --record /home/kenzy/ros2_ws/src/build/turtle_pkg/install.log --single-version-externally-managed install_data

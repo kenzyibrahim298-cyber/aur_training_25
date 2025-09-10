@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating weather_pkg.egg-info
+writing weather_pkg.egg-info/PKG-INFO
+writing dependency_links to weather_pkg.egg-info/dependency_links.txt
+writing entry points to weather_pkg.egg-info/entry_points.txt
+writing requirements to weather_pkg.egg-info/requires.txt
+writing top-level names to weather_pkg.egg-info/top_level.txt
+writing manifest file 'weather_pkg.egg-info/SOURCES.txt'
+reading manifest file 'weather_pkg.egg-info/SOURCES.txt'
+writing manifest file 'weather_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kenzy/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather-pkg.egg-link (link to .)
+Installing humidity_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+Installing monitor_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+Installing pressure_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+Installing temperature_node script to /home/kenzy/ros2_ws/install/weather_pkg/lib/weather_pkg
+
+Installed /home/kenzy/ros2_ws/build/weather_pkg
+running symlink_data
+creating /home/kenzy/ros2_ws/install/weather_pkg/share/ament_index
+creating /home/kenzy/ros2_ws/install/weather_pkg/share/ament_index/resource_index
+creating /home/kenzy/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/weather_pkg/resource/weather_pkg -> /home/kenzy/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/kenzy/ros2_ws/build/weather_pkg/package.xml -> /home/kenzy/ros2_ws/install/weather_pkg/share/weather_pkg

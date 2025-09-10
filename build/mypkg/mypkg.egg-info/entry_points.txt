@@ -1,0 +1,4 @@
+[console_scripts]
+collector_node = mypkg.collector_node:main
+distance_node = mypkg.distance_node:main
+speed_node = mypkg.speed_node:main

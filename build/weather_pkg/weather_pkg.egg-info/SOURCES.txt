@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+resource/weather_pkg
+weather_pkg/__init__.py
+weather_pkg/humidity_node.py
+weather_pkg/monitor_node.py
+weather_pkg/pressure_node.py
+weather_pkg/temperature_node.py
+weather_pkg.egg-info/PKG-INFO
+weather_pkg.egg-info/SOURCES.txt
+weather_pkg.egg-info/dependency_links.txt
+weather_pkg.egg-info/entry_points.txt
+weather_pkg.egg-info/requires.txt
+weather_pkg.egg-info/top_level.txt
+weather_pkg.egg-info/zip-safe

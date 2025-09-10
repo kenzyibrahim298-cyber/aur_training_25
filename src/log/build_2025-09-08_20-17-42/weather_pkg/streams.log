@@ -1,0 +1,32 @@
+[0.888s] Invoking command in '/home/kenzy/ros2_ws/src/weather_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/weather_pkg build --build-base /home/kenzy/ros2_ws/src/build/weather_pkg/build install --record /home/kenzy/ros2_ws/src/build/weather_pkg/install.log --single-version-externally-managed install_data
+[1.036s] running egg_info
+[1.036s] creating ../build/weather_pkg/weather_pkg.egg-info
+[1.045s] writing ../build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+[1.045s] writing dependency_links to ../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+[1.045s] writing requirements to ../build/weather_pkg/weather_pkg.egg-info/requires.txt
+[1.045s] writing top-level names to ../build/weather_pkg/weather_pkg.egg-info/top_level.txt
+[1.045s] writing manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[1.063s] reading manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.063s] running build_py
+[1.064s] creating /home/kenzy/ros2_ws/src/build/weather_pkg/build
+[1.064s] creating /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib
+[1.064s] creating /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg
+[1.064s] copying weather_pkg/__init__.py -> /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg
+[1.064s] running install
+[1.068s] running install_lib
+[1.076s] creating /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[1.076s] copying /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg/__init__.py -> /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[1.076s] byte-compiling /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/__init__.py to __init__.cpython-312.pyc
+[1.077s] running install_data
+[1.077s] creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index
+[1.077s] creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index
+[1.077s] creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index/packages
+[1.077s] copying resource/weather_pkg -> /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index/packages
+[1.077s] copying package.xml -> /home/kenzy/ros2_ws/src/install/weather_pkg/share/weather_pkg
+[1.077s] running install_egg_info
+[1.086s] Copying ../build/weather_pkg/weather_pkg.egg-info to /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info
+[1.087s] running install_scripts
+[1.155s] writing list of installed files to '/home/kenzy/ros2_ws/src/build/weather_pkg/install.log'
+[1.183s] Invoked command in '/home/kenzy/ros2_ws/src/weather_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/weather_pkg build --build-base /home/kenzy/ros2_ws/src/build/weather_pkg/build install --record /home/kenzy/ros2_ws/src/build/weather_pkg/install.log --single-version-externally-managed install_data

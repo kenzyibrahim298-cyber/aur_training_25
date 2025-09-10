@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing pkg_py.egg-info/PKG-INFO
+writing dependency_links to pkg_py.egg-info/dependency_links.txt
+writing entry points to pkg_py.egg-info/entry_points.txt
+writing requirements to pkg_py.egg-info/requires.txt
+writing top-level names to pkg_py.egg-info/top_level.txt
+reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages/pkg-py.egg-link (link to .)
+Installing timer_node script to /home/kenzy/ros2_ws/install/pkg_py/lib/pkg_py
+
+Installed /home/kenzy/ros2_ws/build/pkg_py
+running symlink_data

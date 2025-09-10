@@ -1,0 +1,19 @@
+[2.046s] Invoking command in '/home/kenzy/ros2_ws/build/mypkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/mypkg/build --no-deps symlink_data
+[2.622s] running develop
+[2.926s] running egg_info
+[2.954s] writing mypkg.egg-info/PKG-INFO
+[2.954s] writing dependency_links to mypkg.egg-info/dependency_links.txt
+[2.955s] writing entry points to mypkg.egg-info/entry_points.txt
+[2.955s] writing requirements to mypkg.egg-info/requires.txt
+[2.955s] writing top-level names to mypkg.egg-info/top_level.txt
+[3.013s] reading manifest file 'mypkg.egg-info/SOURCES.txt'
+[3.014s] writing manifest file 'mypkg.egg-info/SOURCES.txt'
+[3.047s] running build_ext
+[3.047s] Creating /home/kenzy/ros2_ws/install/mypkg/lib/python3.12/site-packages/mypkg.egg-link (link to .)
+[3.049s] Installing collector_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+[3.049s] Installing distance_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+[3.049s] Installing speed_node script to /home/kenzy/ros2_ws/install/mypkg/lib/mypkg
+[3.050s] 
+[3.050s] Installed /home/kenzy/ros2_ws/build/mypkg
+[3.050s] running symlink_data
+[3.157s] Invoked command in '/home/kenzy/ros2_ws/build/mypkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kenzy/ros2_ws/build/mypkg/build --no-deps symlink_data

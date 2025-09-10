@@ -1,0 +1,22 @@
+[0.887s] Invoking command in '/home/kenzy/ros2_ws/src/mypkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mypkg build --build-base /home/kenzy/ros2_ws/src/build/mypkg/build install --record /home/kenzy/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed install_data
+[1.045s] running egg_info
+[1.054s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.054s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.054s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.054s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[1.054s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[1.073s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.073s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.073s] running build
+[1.073s] running build_py
+[1.073s] running install
+[1.077s] running install_lib
+[1.087s] running install_data
+[1.087s] running install_egg_info
+[1.097s] removing '/home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.097s] Copying ../build/mypkg/mypkg.egg-info to /home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[1.097s] running install_scripts
+[1.168s] Installing listener script to /home/kenzy/ros2_ws/src/install/mypkg/lib/mypkg
+[1.168s] Installing talker script to /home/kenzy/ros2_ws/src/install/mypkg/lib/mypkg
+[1.169s] writing list of installed files to '/home/kenzy/ros2_ws/src/build/mypkg/install.log'
+[1.235s] Invoked command in '/home/kenzy/ros2_ws/src/mypkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/src/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mypkg build --build-base /home/kenzy/ros2_ws/src/build/mypkg/build install --record /home/kenzy/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed install_data

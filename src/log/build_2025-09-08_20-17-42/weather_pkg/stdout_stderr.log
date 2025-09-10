@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/weather_pkg/weather_pkg.egg-info
+writing ../build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+writing requirements to ../build/weather_pkg/weather_pkg.egg-info/requires.txt
+writing top-level names to ../build/weather_pkg/weather_pkg.egg-info/top_level.txt
+writing manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kenzy/ros2_ws/src/build/weather_pkg/build
+creating /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib
+creating /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg
+copying weather_pkg/__init__.py -> /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg
+running install
+running install_lib
+creating /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+copying /home/kenzy/ros2_ws/src/build/weather_pkg/build/lib/weather_pkg/__init__.py -> /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+byte-compiling /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index
+creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index
+creating /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index/packages
+copying resource/weather_pkg -> /home/kenzy/ros2_ws/src/install/weather_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/kenzy/ros2_ws/src/install/weather_pkg/share/weather_pkg
+running install_egg_info
+Copying ../build/weather_pkg/weather_pkg.egg-info to /home/kenzy/ros2_ws/src/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/kenzy/ros2_ws/src/build/weather_pkg/install.log'

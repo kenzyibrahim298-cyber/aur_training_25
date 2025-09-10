@@ -1,0 +1,2 @@
+[console_scripts]
+timer = pkg_py.timer_node:main

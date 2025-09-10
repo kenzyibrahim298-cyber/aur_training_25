@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt
+../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+../build/weather_pkg/weather_pkg.egg-info/requires.txt
+../build/weather_pkg/weather_pkg.egg-info/top_level.txt
+../build/weather_pkg/weather_pkg.egg-info/zip-safe
+resource/weather_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py
+weather_pkg/__init__.py
