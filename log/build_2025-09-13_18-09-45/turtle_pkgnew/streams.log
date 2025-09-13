@@ -1,0 +1,37 @@
+[1.747s] Invoking command in '/home/kenzy/ros2_ws/src/turtle_pkgnew': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/turtle_pkgnew/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkgnew build --build-base /home/kenzy/ros2_ws/build/turtle_pkgnew/build install --record /home/kenzy/ros2_ws/build/turtle_pkgnew/install.log --single-version-externally-managed install_data
+[2.025s] running egg_info
+[2.025s] creating ../../build/turtle_pkgnew/turtle_pkgnew.egg-info
+[2.041s] writing ../../build/turtle_pkgnew/turtle_pkgnew.egg-info/PKG-INFO
+[2.042s] writing dependency_links to ../../build/turtle_pkgnew/turtle_pkgnew.egg-info/dependency_links.txt
+[2.042s] writing entry points to ../../build/turtle_pkgnew/turtle_pkgnew.egg-info/entry_points.txt
+[2.042s] writing requirements to ../../build/turtle_pkgnew/turtle_pkgnew.egg-info/requires.txt
+[2.042s] writing top-level names to ../../build/turtle_pkgnew/turtle_pkgnew.egg-info/top_level.txt
+[2.042s] writing manifest file '../../build/turtle_pkgnew/turtle_pkgnew.egg-info/SOURCES.txt'
+[2.077s] reading manifest file '../../build/turtle_pkgnew/turtle_pkgnew.egg-info/SOURCES.txt'
+[2.078s] writing manifest file '../../build/turtle_pkgnew/turtle_pkgnew.egg-info/SOURCES.txt'
+[2.078s] running build
+[2.078s] running build_py
+[2.078s] creating /home/kenzy/ros2_ws/build/turtle_pkgnew/build
+[2.079s] creating /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib
+[2.079s] creating /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib/turtle_pkgnew
+[2.079s] copying turtle_pkgnew/turtle_chase.py -> /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib/turtle_pkgnew
+[2.079s] copying turtle_pkgnew/__init__.py -> /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib/turtle_pkgnew
+[2.079s] running install
+[2.086s] running install_lib
+[2.103s] creating /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew
+[2.104s] copying /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib/turtle_pkgnew/turtle_chase.py -> /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew
+[2.104s] copying /home/kenzy/ros2_ws/build/turtle_pkgnew/build/lib/turtle_pkgnew/__init__.py -> /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew
+[2.104s] byte-compiling /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew/turtle_chase.py to turtle_chase.cpython-312.pyc
+[2.106s] byte-compiling /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew/__init__.py to __init__.cpython-312.pyc
+[2.106s] running install_data
+[2.106s] creating /home/kenzy/ros2_ws/install/turtle_pkgnew/share/ament_index
+[2.106s] creating /home/kenzy/ros2_ws/install/turtle_pkgnew/share/ament_index/resource_index
+[2.106s] creating /home/kenzy/ros2_ws/install/turtle_pkgnew/share/ament_index/resource_index/packages
+[2.107s] copying resource/turtle_pkgnew -> /home/kenzy/ros2_ws/install/turtle_pkgnew/share/ament_index/resource_index/packages
+[2.107s] copying package.xml -> /home/kenzy/ros2_ws/install/turtle_pkgnew/share/turtle_pkgnew
+[2.107s] running install_egg_info
+[2.125s] Copying ../../build/turtle_pkgnew/turtle_pkgnew.egg-info to /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages/turtle_pkgnew-0.0.0-py3.12.egg-info
+[2.125s] running install_scripts
+[2.251s] Installing turtle_chase script to /home/kenzy/ros2_ws/install/turtle_pkgnew/lib/turtle_pkgnew
+[2.251s] writing list of installed files to '/home/kenzy/ros2_ws/build/turtle_pkgnew/install.log'
+[2.296s] Invoked command in '/home/kenzy/ros2_ws/src/turtle_pkgnew' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/turtle_pkgnew/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/turtle_pkgnew/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkgnew build --build-base /home/kenzy/ros2_ws/build/turtle_pkgnew/build install --record /home/kenzy/ros2_ws/build/turtle_pkgnew/install.log --single-version-externally-managed install_data

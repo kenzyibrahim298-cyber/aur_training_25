@@ -1,1 +1,0 @@
-/home/kenzy/ros2_ws/src/weather_pkg/setup.py

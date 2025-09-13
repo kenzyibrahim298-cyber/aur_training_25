@@ -1,0 +1,21 @@
+[1.567s] Invoking command in '/home/kenzy/ros2_ws/src/pkg_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/kenzy/ros2_ws/build/pkg_py/build install --record /home/kenzy/ros2_ws/build/pkg_py/install.log --single-version-externally-managed install_data
+[1.841s] running egg_info
+[1.857s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[1.858s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[1.858s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[1.858s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[1.858s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[1.893s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[1.894s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[1.894s] running build
+[1.894s] running build_py
+[1.894s] running install
+[1.902s] running install_lib
+[1.920s] running install_data
+[1.920s] running install_egg_info
+[1.939s] removing '/home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.939s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info
+[1.939s] running install_scripts
+[2.064s] Installing timer_node script to /home/kenzy/ros2_ws/install/pkg_py/lib/pkg_py
+[2.064s] writing list of installed files to '/home/kenzy/ros2_ws/build/pkg_py/install.log'
+[2.101s] Invoked command in '/home/kenzy/ros2_ws/src/pkg_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenzy/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenzy/ros2_ws/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/kenzy/ros2_ws/build/pkg_py/build install --record /home/kenzy/ros2_ws/build/pkg_py/install.log --single-version-externally-managed install_data
